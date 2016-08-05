@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/item_userinfo_cardview"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="5dp"
+                >
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/user_card_bg">
+                    <TableRow
+                        android:layout_marginTop="4dp"
+                        android:layout_marginBottom="4dp"
+                        >
+                        <com.beardedhen.androidbootstrap.BootstrapCircleThumbnail
+                            android:id="@+id/item_userinfo_img"
+                            android:layout_width="54dp"
+                            android:layout_height="54dp"
+                            android:layout_margin="8dp"
+                            app:bootstrapBrand="info"
+
+                            app:hasBorder="false"
+                            />
+                        <!--android:transitionName="icon"-->
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:gravity="center_vertical"
+                            >
+
+                            <TextView
+                                android:id="@+id/item_userinfo_nickname"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="fds"
+                                android:layout_marginLeft="4dp"
+                                android:layout_marginRight="8dp"
+                                android:lines="1"
+                                android:textColor="@color/bootstrap_gray"
+                                android:textSize="@dimen/bootstrap_h5_text_size"
+                                android:textStyle="bold"
+                                />
+<!--    android:transitionName="nickname"-->
+                            <TextView
+                                android:id="@+id/item_userinfo_detail"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="fds"
+                                android:layout_marginLeft="4dp"
+                                android:layout_marginRight="8dp"
+                                android:layout_marginTop="2dp"
+                                android:layout_marginBottom="4dp"
+                                android:singleLine="true"
+                                android:textColor="@color/bootstrap_brand_success"
+                                android:ellipsize="end"
+                                android:textSize="@dimen/bootstrap_h6_text_size"
+                                android:textStyle="bold"
+                                />
+
+                             <TextView
+                                android:id="@+id/item_userinfo_ment"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="4dp"
+                                android:layout_marginRight="8dp"
+                                android:text=" ment"
+                                android:singleLine="true"
+                                 android:ellipsize="end"
+                                android:textColor="@color/bootstrap_gray"
+                                android:textSize="@dimen/bootstrap_h6_text_size"
+                                />
+                        </LinearLayout>
+                    </TableRow>
+
+                    <TableRow>
+
+
+
+
+                    </TableRow>
+
+                </TableLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+
+
+
+
+
+
+
+
+</FrameLayout>

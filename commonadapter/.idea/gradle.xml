@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/.." />
+            <option value="$PROJECT_DIR$/../baselib" />
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/../demo_baselib" />
+            <option value="$PROJECT_DIR$/../demo_loadingindicator" />
+            <option value="$PROJECT_DIR$/../demo_magicindicator" />
+            <option value="$PROJECT_DIR$/../demo_tigerdb" />
+            <option value="$PROJECT_DIR$/../hf_load_springview" />
+            <option value="$PROJECT_DIR$/../lableview_stick" />
+            <option value="$PROJECT_DIR$/../loadingindicator" />
+            <option value="$PROJECT_DIR$/../magicindicator" />
+            <option value="$PROJECT_DIR$/../tiger_db" />
+            <option value="$PROJECT_DIR$/../tool_utils" />
+          </set>
+        </option>
+        <option name="myModules">
+          <set>
+            <option value="$PROJECT_DIR$/.." />
+            <option value="$PROJECT_DIR$/../baselib" />
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/../demo_baselib" />
+            <option value="$PROJECT_DIR$/../demo_loadingindicator" />
+            <option value="$PROJECT_DIR$/../demo_magicindicator" />
+            <option value="$PROJECT_DIR$/../demo_tigerdb" />
+            <option value="$PROJECT_DIR$/../hf_load_springview" />
+            <option value="$PROJECT_DIR$/../lableview_stick" />
+            <option value="$PROJECT_DIR$/../loadingindicator" />
+            <option value="$PROJECT_DIR$/../magicindicator" />
+            <option value="$PROJECT_DIR$/../tiger_db" />
+            <option value="$PROJECT_DIR$/../tool_utils" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

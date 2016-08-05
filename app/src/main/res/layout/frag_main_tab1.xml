@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.liaoinstan.springview.widget.SpringView
+        android:id="@+id/tab1_refreshSpringView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:footer="@layout/default_footer"
+        app:header="@layout/default_header"
+       >
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/tab1_recyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </com.liaoinstan.springview.widget.SpringView>
+
+    <TextView
+        android:id="@+id/emptyData"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="Empty Datas"
+        android:textSize="@dimen/bootstrap_h2_text_size"
+        android:textColor="@color/bootstrap_gray_light"
+        android:clickable="false"
+        android:focusableInTouchMode="false"
+        />
+
+</FrameLayout>

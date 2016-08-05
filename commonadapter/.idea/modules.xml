@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../LibraryProject.iml" filepath="$PROJECT_DIR$/../LibraryProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../baselib/baselib.iml" filepath="$PROJECT_DIR$/../baselib/baselib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/commonadapter.iml" filepath="$PROJECT_DIR$/commonadapter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../demo_baselib/demo_baselib.iml" filepath="$PROJECT_DIR$/../demo_baselib/demo_baselib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../demo_loadingindicator/demo_loadingindicator.iml" filepath="$PROJECT_DIR$/../demo_loadingindicator/demo_loadingindicator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../demo_magicindicator/demo_magicindicator.iml" filepath="$PROJECT_DIR$/../demo_magicindicator/demo_magicindicator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../demo_tigerdb/demo_tigerdb.iml" filepath="$PROJECT_DIR$/../demo_tigerdb/demo_tigerdb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../hf_load_springview/hf_load_springview.iml" filepath="$PROJECT_DIR$/../hf_load_springview/hf_load_springview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../lableview_stick/lableview_stick.iml" filepath="$PROJECT_DIR$/../lableview_stick/lableview_stick.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../loadingindicator/loadingindicator.iml" filepath="$PROJECT_DIR$/../loadingindicator/loadingindicator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../magicindicator/magicindicator.iml" filepath="$PROJECT_DIR$/../magicindicator/magicindicator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../tiger_db/tiger_db.iml" filepath="$PROJECT_DIR$/../tiger_db/tiger_db.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../tool_utils/tool_utils.iml" filepath="$PROJECT_DIR$/../tool_utils/tool_utils.iml" />
+    </modules>
+  </component>
+</project>

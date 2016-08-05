@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/common_titlebar"/>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp"
+        android:transitionName="cardview"
+        app:cardCornerRadius="5dp">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/user_card_bg">
+
+            <TableRow android:layout_marginTop="8dp">
+
+                <com.beardedhen.androidbootstrap.BootstrapCircleThumbnail
+                    android:id="@+id/act_userinfo_icon"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_margin="8dp"
+                    android:src="@drawable/default_nor_avatar"
+                    android:transitionName="icon"
+                    app:bootstrapBrand="info"
+                    app:hasBorder="false" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/act_userinfo_nickname"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginTop="8dp"
+                        android:ellipsize="end"
+                        android:singleLine="true"
+                        android:transitionName="nickname"
+                        android:text="민아"
+                        android:textColor="@color/bootstrap_gray"
+                        android:textSize="@dimen/bootstrap_h5_text_size"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/act_userinfo_detail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginTop="4dp"
+                        android:ellipsize="end"
+                        android:singleLine="true"
+                        android:transitionName="detail"
+                        android:text="남자,1988,1분전"
+                        android:textColor="@color/bootstrap_brand_success"
+                        android:textSize="@dimen/bootstrap_h6_text_size"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="8dp">
+
+                <com.beardedhen.androidbootstrap.BootstrapButton
+                    android:id="@+id/act_userinfo_sendball"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginRight="12dp"
+                    android:layout_marginTop="4dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:text="@string/send_ball"
+                    app:bootstrapBrand="warning"
+                    app:bootstrapSize="md"
+                    app:roundedCorners="true"
+                    app:showOutline="true" />
+
+                <com.beardedhen.androidbootstrap.BootstrapButton
+                    android:id="@+id/act_userinfo_callchat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginRight="12dp"
+                    android:layout_marginTop="4dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:text="@string/call_talk"
+                    app:bootstrapBrand="warning"
+                    app:bootstrapSize="md"
+                    app:roundedCorners="true"
+                    app:showOutline="true" />
+            </TableRow>
+
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_width="wrap_content"
+                android:text="@string/userinfo_ment"
+                android:textColor="@color/bootstrap_gray"
+                android:textSize="@dimen/bootstrap_h4_text_size"
+                android:textStyle="bold" />
+
+            <com.beardedhen.androidbootstrap.BootstrapWell
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="8dp"
+                app:bootstrapSize="lg">
+
+                <TextView
+                    android:id="@+id/act_userinfo_ment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:transitionName="ment"
+                    android:text="유재석이 고자리니 유재석이 고자라니~!!!" />
+
+            </com.beardedhen.androidbootstrap.BootstrapWell>
+
+            <TableRow android:layout_marginTop="12dp">
+
+                <com.beardedhen.androidbootstrap.BootstrapButton
+                    android:id="@+id/act_userinfo_"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginRight="12dp"
+                    android:layout_marginTop="4dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:text="@string/userinfo_disconnect"
+                    app:bootstrapBrand="warning"
+                    app:bootstrapSize="md"
+                    app:roundedCorners="true" />
+
+            </TableRow>
+
+
+        </TableLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+</LinearLayout>

@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">OneChat</string>
+
+
+    <!--Main TabNames-->
+    <string name="main_tabname_0">대기실</string>
+    <string name="main_tabname_1">그룹채팅</string>
+    <string name="main_tabname_2">내채팅</string>
+
+
+    <!--Tan indicator underbarcolor-->
+    <string name="tab_indicator_undercolor">#fcde64</string>
+
+    <!--Sex-->
+    <string name="sex_women">여자</string>
+    <string name="sex_man">남자</string>
+
+    <!--회원정보 -->
+    <string name="userinfo_title">회원정보</string>
+    <string name="userinfo_ment">한줄소개</string>
+    <string name="userinfo_disconnect">차단하기</string>
+
+    <!--풍선-->
+    <string name="send_ball">풍선 보내기</string>
+
+    <!--채팅-->
+    <string name="call_talk">1:1 대화하기</string>
+
+
+</resources>

@@ -1,0 +1,66 @@
+apply plugin: 'com.android.application'
+
+android {
+
+    compileSdkVersion 23
+    buildToolsVersion '23.0.3'
+
+
+    dexOptions {  /*For resolve outof memory issue*/
+        javaMaxHeapSize "4g"
+    }
+
+
+    defaultConfig {
+        applicationId "com.miniram.onechat"
+        minSdkVersion 14
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    productFlavors {
+    }
+
+
+    android.applicationVariants.all { variant ->
+        variant.outputs.each { output ->
+            def outputFile = output.outputFile
+            if (outputFile != null && outputFile.name.endsWith('.apk')) {
+
+                //APK 이름 변경
+                if (outputFile.name.contains('release')) {
+                    def fileName = "onechat_release-${defaultConfig.versionName}-${defaultConfig.versionCode}.apk"
+                    output.outputFile = new File(outputFile.parent, fileName)
+                } else {
+                    def fileName = "onechat_dev_debug-${defaultConfig.versionName}-${defaultConfig.versionCode}.apk"
+                    output.outputFile = new File(outputFile.parent, fileName)
+                }
+
+            }
+        }
+    }
+
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:23.4.0'
+    compile project(':baselib')
+    compile project(':commonadapter')
+    compile project(':hf_load_springview')
+    compile project(':loadingindicator')
+    compile project(':magicindicator')
+    compile project(':tiger_db')
+    compile project(':tool_utils')
+    compile project(':androidbootstrap')
+    compile 'com.android.support:cardview-v7:23.4.0'
+    compile 'com.klinkerapps:link_builder:1.3.2@aar'
+        compile 'com.github.eluleci:flatui:3.0.0'
+}

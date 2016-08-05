@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">SpringView</string>
+    <string name="default_loadmore">더보기</string>
+    <string name="default_loading">로딩중</string>
+    <string name="default_loadrelease">놓으면 새로고침</string>
+    <string name="default_load_pull">내려서 새로고침</string>
+    <string name="before_hour">시간전</string>
+    <string name="before_minute">분전</string>
+    <string name="before_day">일전</string>
+    <string name="before_now">방금</string>
+    <string name="last_refreshtime">최근 새로고침된시간:</string>
+    <string name="before_first">처음</string>
+</resources>

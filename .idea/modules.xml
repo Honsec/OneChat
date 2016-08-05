@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/OneChat.iml" filepath="$PROJECT_DIR$/OneChat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/androidbootstrap/androidbootstrap.iml" filepath="$PROJECT_DIR$/androidbootstrap/androidbootstrap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/baselib/baselib.iml" filepath="$PROJECT_DIR$/baselib/baselib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/commonadapter/commonadapter.iml" filepath="$PROJECT_DIR$/commonadapter/commonadapter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hf_load_springview/hf_load_springview.iml" filepath="$PROJECT_DIR$/hf_load_springview/hf_load_springview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/loadingindicator/loadingindicator.iml" filepath="$PROJECT_DIR$/loadingindicator/loadingindicator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/magicindicator/magicindicator.iml" filepath="$PROJECT_DIR$/magicindicator/magicindicator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tiger_db/tiger_db.iml" filepath="$PROJECT_DIR$/tiger_db/tiger_db.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tool_utils/tool_utils.iml" filepath="$PROJECT_DIR$/tool_utils/tool_utils.iml" />
+    </modules>
+  </component>
+</project>
